@@ -4,7 +4,7 @@ export const UserIconWithName = (props) => {
   const { image, name } = props;
   return (
     <SContainer>
-      <SImg height={160} src={image} alt={name} />
+      <SImg width={160} src={image} alt={name} />
       <SName>{name}</SName>
     </SContainer>
   );
